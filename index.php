@@ -1,1 +1,1 @@
-https://1023choi.github.io/first-website/
+<?php include_once("index.html"); ?>
