@@ -18,7 +18,14 @@ img{
 	height: 400px; 
 	object-fit: cover;
 }
-
+@media screen and (max-width:768px) {
+	img{	
+		height: 500px;
+	}
+	body{ 
+		background-color:#689;
+	}
+}
 #marvel-img{
 	object-fit: fill; 
 }
@@ -30,6 +37,9 @@ h3{
 
 .footer{
 	font-size: 20px;
+}
+.contact{
+	text-align: center;
 }
 li{
 	font-size: 20px;
@@ -43,3 +53,34 @@ ul{
 #email{
 	margin-bottom: 10px;
 } 
+.center-text{
+	background-color:#9E9191 ;
+	position: absolute;
+	top: 175px;
+	left: 0;
+	margin-left:0;
+	padding-right:10px;
+	padding-left:30px;
+	font-size:4rem;
+}
+.container{
+	position: relative;
+	margin:0;
+	padding:0;
+}
+.right-center-text{
+	position: absolute;
+	top: 175px;
+	right: 0;
+	margin-right:0;
+	padding-right:10px;
+	padding-left:30px;
+	font-size:4rem;
+}
+.back-button{ 
+	height:60px;
+	width:60px;
+	position: fixed;
+	top: 92%;
+	right: 20px;
+}
