@@ -1,86 +1,133 @@
-body{
-	background-color: rgb(48,164,255);	
-	color: white;
-	font-family: Times,"serif";
-	margin: 0;
+body {
+  background-color: rgb(48, 164, 255);
+  color: white;
+  font-family: Times, "serif";
+  margin: 0;
 }
 
-h1{
-	letter-spacing: 10px;
-	text-align: center;
-	font-size: 65px;
-	text-decoration: underline;
-	margin: 20px;
+h1 {
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 65px;
+  text-decoration: underline;
+  margin: 20px;
 }
 
-img{
-	width: 100%;
-	height: 400px; 
-	object-fit: cover;
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
-@media screen and (max-width:768px) {
-	img{	
-		height: 500px;
-	}
-	body{ 
-		background-color:#689;
-	}
+@media screen and (max-width: 768px) {
+  img {
+    height: 500px;
+  }
+  body {
+    background-color: #689;
+  }
 }
-#marvel-img{
-	object-fit: fill; 
-}
-
-h3{
-	font-size: 40px;
-	margin: 10px;
+#marvel-img {
+  object-fit: fill;
 }
 
-.footer{
-	font-size: 20px;
-}
-.contact{
-	text-align: center;
-}
-li{
-	font-size: 20px;
+h3 {
+  font-size: 40px;
+  margin: 10px;
 }
 
-ul{
-	list-style-type: none;
-	padding-left: 0px;
+.footer {
+  font-size: 20px;
 }
- 
-#email{
-	margin-bottom: 10px;
-} 
-.center-text{
-	background-color:#9E9191 ;
-	position: absolute;
-	top: 175px;
-	left: 0;
-	margin-left:0;
-	padding-right:10px;
-	padding-left:30px;
-	font-size:4rem;
+.contact {
+  text-align: center;
 }
-.container{
-	position: relative;
-	margin:0;
-	padding:0;
+li {
+  font-size: 20px;
 }
-.right-center-text{
-	position: absolute;
-	top: 175px;
-	right: 0;
-	margin-right:0;
-	padding-right:10px;
-	padding-left:30px;
-	font-size:4rem;
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
 }
-.back-button{ 
-	height:60px;
-	width:60px;
-	position: fixed;
-	top: 92%;
-	right: 20px;
+
+#email {
+  margin-bottom: 10px;
+}
+.center-text {
+  background-color: #9e9191;
+  position: absolute;
+  top: 175px;
+  left: 0;
+  margin-left: 0;
+  padding-right: 10px;
+  padding-left: 30px;
+  font-size: 4rem;
+}
+.container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.right-center-text {
+  position: absolute;
+  top: 175px;
+  right: 0;
+  margin-right: 0;
+  padding-right: 10px;
+  padding-left: 30px;
+  font-size: 4rem;
+}
+.back-button {
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  top: 92%;
+  right: 20px;
+}
+
+/* marvel css */
+.banner {
+  height: 600px;
+}
+.banner-textbox {
+  padding: 5% 15% 5% 15%;
+  font-size: 48px;
+  font-family: Arial;
+}
+.big-pic {
+  width: 100%;
+  height: 800px;
+}
+.pic {
+  width: 30%;
+}
+.infobox {
+  display: flex;
+  width: 100%;
+  font-size: 38px;
+  align-items: center;
+  margin-top:10%;
+}
+.name {
+  font-size: 55px;
+  font-weight: 900;
+  text-decoration: none;
+  margin:0;
+  line-height: 50x;
+}
+.textbox {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  text-align:justify;
+}
+.textbox2{
+  flex-direction: column;
+  display: flex;
+  align-items: flex-end;
+  text-align:justify;
+}
+.bigpicbox{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
